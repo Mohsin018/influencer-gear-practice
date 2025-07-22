@@ -42,6 +42,9 @@ nav{
     height: 380px;
     
 }
+.header-text-1{
+    font-size: 30px;
+}
 
 /* Banner image */
 
@@ -88,9 +91,16 @@ nav{
                                             /* Main  */
 main{
     margin-top: 150px;
+
+    border: 2px solid blue;
+    max-width: 1366px;
+}
+
+.item-section{
     margin-left: 200px;
     margin-right: 200px;
-    border: 2px solid blue;
+    border: 2px solid black;
+
 }
 
 
@@ -104,13 +114,13 @@ main{
     padding-left: 14px;
     padding-right: 15px;
     padding-top: 17px;
-    width: 250px;
+    /* width: 250px; */
 
     
 }
 
 .item-img{
-    width: 250px;
+    width: 100%;
 
 }
 
@@ -139,6 +149,59 @@ main{
 .item-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    
+    
+    /* justify-content: space-between; */
+    column-gap: 10px;
+    row-gap: 10px;
     align-items: center;
+    /* margin-left: 10px; */
+    margin: 0 20px;
+}
+
+
+.see-more{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.gear-section{
+    margin-left: 170px;
+    margin-right: 170px;
+    border: 2px solid violet;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
+
+
+                                                        /* Footer */
+.footer-part{
+    border: 2px solid greenyellow;
+    
+    text-align: center;
+    background-color: rgba(4, 30, 66, 1);
+    color: white;
+}
+
+.footer-section{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.footer-div h3{
+    font-size: 24px;
+    /* margin: 0; */
+    margin-bottom: 5px;
+}
+
+.footer-div h4{
+    font-size: 13px;
+    margin: 5px;
 }
