@@ -89,4 +89,56 @@ nav{
 main{
     margin-top: 150px;
     margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid blue;
+}
+
+
+
+.headline{
+    text-align: center;
+}
+
+.item-cards{
+    border: 2px solid goldenrod;
+    padding-left: 14px;
+    padding-right: 15px;
+    padding-top: 17px;
+    width: 250px;
+
+    
+}
+
+.item-img{
+    width: 250px;
+
+}
+
+.ratings{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info{
+    margin: 0;
+}
+
+.item-name{
+    font-size: 28px;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.item-rate{
+    font-size: 24px;
+    margin: 0;
+}
+
+.item-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
 }
